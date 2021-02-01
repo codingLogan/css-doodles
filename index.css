@@ -1,0 +1,31 @@
+body {
+    background-color: #291f1e;
+    color: white;
+}
+
+body .progress-container {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.progress-container {
+    position: relative;
+}
+
+.progress-empty {
+    position: relative;
+    width: 80vw;
+    height: 32px;
+    background-color: #08415c;
+    border-radius: 20px;
+}
+
+.progress {
+    position: absolute;
+    top: 0;
+    width: 0vw;
+    height: 32px;
+    background-color: #b5ffe1;
+    border-radius: 20px;
+    transition: width 0.5s ease-in;
+}
